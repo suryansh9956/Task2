@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,100&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Suryansh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="Home">
+            <div class="leftSection">
+                Hi, My name is <span class="pure">SURYANSH SINGH</span>
+                <div>and i am a beginer</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="portfolio.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <section class="About section" id="About">
+            <h2 class="About_title">About</h2>
+            <div class="About-container">
+                <article class="About-card">
+                    <a href="#" target="_blank" class="About_link">
+                        <p class="about_discription">
+                            <span class="para">
+                                Hi, I am Suryansh singh from Deoria (Uttar Pradesh)
+                                <br>
+                                i am a web devloper,web desiginer, programmer and intrested in Database
+                            </span>
+                        </p>
+                        <img src="myimage.jpeg" alt="image" class="about_ex">
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="Service section" id="Services">
+            <h2 class="Service_title">Service</h2>
+            <div class="Services">
+                <article class="Services--card">
+                    <a href="#" target="_blank" class="Service_link">
+                        <h2 class="Service__title">Available Services</h2>
+                        <img src="development.jpg" alt="image 1" class="Service-image">
+                        <h3 class="hd1">Web Devlopment</h3>
+                        <img src="/java.jpg" alt="image 2" class="java-image">
+                        <h3 class="hd2"> Java Programming</h3>
+                        <img src="designing.avif" alt="image 3" class="web-image">
+                        <h3 class="hd3"> Web Designing</h3>
+                        
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="Project section" id="Projects">
+            <h2 class="Project_title">Projects</h2>
+            <div class="Projects">
+                
+
+                <article class="Projects--card">
+                    <a href="#" target="_blank" class="Projects_link">
+                        <h2 class="Project__title">Calculator</h2>
+                        <p class="Des1">
+                            I am creating a simple calculator using HTML,CSS & JavaScript
+                            user will use this very simply an they calculate simple
+                            sum using +, -, *, /, ., % these operators and it will looking good
+                            and calculate accurate.
+                        </p>
+                    </a>
+                </article>
+
+                <h2 class="Current-title">Current Project</h2>
+                <article class="Projects--card">
+                    <a href="#" target="_blank" class="Projects_link">
+                        <h2 class="Project__title">Portfolio site</h2>
+                        <p class="Des1">
+                            I am creating personal portfolio site using HTML & CSS
+                            i use my own knowlwdge and experiance to build this and
+                            Designing this. I want to make this very perfect and looking good & attractive
+                        </p>
+                        <i class="ri-arrow-right-line"></i>
+                        <img src="port.jpg" alt="" class="pro">
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <section class="Contact Me" id="contact">
+            <h2 class="info_title">Contact Me</h2>
+            <div class="Contact">
+                <form action="contact" class="php" id="contact-form">
+                    <input type="text" name="" placeholder="Name" required class="contact__input">
+                    <input type="email" name="" placeholder="Email" required class="contact__input">
+                    <input type="explain" name="" id="explain" cols="30" rows="10" text-limit="500"
+                        placeholder="Feedback" required class="contact___input">
+                </form>
+                </Contact>
+            </div>
+            <button class="submit-title">Submit</button>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h2>Suryansh's portfolio site</h2>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>Service</li>
+                    <li>project</li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>Service</li>
+                    <li>project</li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>about</li>
+                    <li>Service</li>
+                    <li>project</li>
+                    <li>contact us</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            copyright &copy; 2024 | All rights reserved <br>
+            www.Suryanshportfoliosite.com
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Devloper', 'Database', 'Web Desiginer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
